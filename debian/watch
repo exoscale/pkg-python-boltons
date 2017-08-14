@@ -1,0 +1,3 @@
+version=3
+opts="filenamemangle=s/.*\/([\d\.]*)\.tar\.gz/python-boltons-$1.tar.gz/" \
+https://github.com/mahmoud/boltons/tags .*/([\d\.]*)\.tar\.gz

@@ -1,0 +1,6 @@
+#! /usr/bin/make -f
+
+export PYBUILD_NAME=boltons
+
+%:
+	dh $@ --with python3,python2 --buildsystem=pybuild
